@@ -145,6 +145,49 @@ main img {
     max-width: 40%;
 }
 
+#calc {
+    width: 100%;
+    margin: 4vh auto 0;
+    text-align: left;
+}
+
+.calc-row {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 1vw;
+    margin: 2vh 0;
+}
+
+.calc-row label {
+    width: 30%;
+    font-size: calc(14px + 0.6vw);
+}
+
+.calc-row input {
+    width: 70%;
+    padding: 1vh 1vw;
+    font-size: calc(14px + 0.6vw);
+}
+
+.calc-buttons {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1vh 1vw;
+    margin: 2vh 0;
+}
+
+.calc-buttons button {
+    padding: 1vh 2vw;
+    font-size: calc(14px + 0.6vw);
+    cursor: pointer;
+}
+
+#output {
+    margin-top: 2vh;
+    font-size: calc(0.9rem + 0.8vw);
+}
+
 /*
     height and width: vw or vh
     margin and padding: %
